@@ -1,0 +1,272 @@
+#header {
+    width: 100%;
+    background: #080808;
+    display: table;
+    clear: right;
+    height: 95px
+}
+
+#buttonBox {
+    display: table;
+    clear: right;
+    white-space: nowrap;
+    position: absolute;
+    left: 300px
+}
+
+#logoWell {
+    width: 269px;
+    height: 73px;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-top: 7px;
+    margin-top: 6px;
+    float: left;
+    display: block;
+    clear: right;
+    position: relative
+}
+
+    #logoWell img {
+        width: 259px;
+        height: 61px;
+        position: absolute;
+        top: 50%;
+        margin-top: -30px
+    }
+
+#helpDeskName {
+    display: none
+}
+
+.navButton {
+    display: inline-table;
+    height: 55px;
+    cursor: pointer;
+    color: #fff;
+    margin: 20px 10px
+}
+
+.buttonLabel {
+    display: block;
+    line-height: 12px;
+    white-space: normal;
+    font-weight: normal;
+    position: relative;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 45px;
+    padding-top: 21px
+}
+
+#requestButton.buttonUp {
+    background-size: 20px;
+    background: url(/helpdesk/resources/images/client/request_up.png?v=12_5_2_84) no-repeat 16px 17px
+}
+
+#requestButton.buttonDown {
+    color: #f99d1c;
+    background-size: 20px;
+    background: url(/helpdesk/resources/images/client/request_down.png?v=12_5_2_84) no-repeat 16px 17px
+}
+
+#historyButton.buttonUp {
+    background-size: 20px;
+    background: url(/helpdesk/resources/images/client/history_up.png?v=12_5_2_84) no-repeat 16px 17px
+}
+
+#historyButton.buttonDown {
+    color: #f99d1c;
+    background-size: 20px;
+    background: url(/helpdesk/resources/images/client/history_down.png?v=12_5_2_84) no-repeat 16px 17px
+}
+
+#approvalsButton.buttonUp {
+    background-size: 20px;
+    background: url(/helpdesk/resources/images/client/approvals_up.png?v=12_5_2_84) no-repeat 16px 17px
+}
+
+#approvalsButton.buttonDown {
+    color: #f99d1c;
+    background-size: 20px;
+    background: url(/helpdesk/resources/images/client/approvals_down.png?v=12_5_2_84) no-repeat 16px 17px
+}
+
+#faqsButton.buttonUp {
+    background-size: 20px;
+    background: url(/helpdesk/resources/images/client/faqs_up.png?v=12_5_2_84) no-repeat 16px 17px
+}
+
+#faqsButton.buttonDown {
+    color: #f99d1c;
+    background-size: 20px;
+    background: url(/helpdesk/resources/images/client/faqs_down.png?v=12_5_2_84) no-repeat 16px 17px
+}
+
+#profileButton.buttonUp {
+    background-size: 20px;
+    background: url(/helpdesk/resources/images/client/profile_up.png?v=12_5_2_84) no-repeat 16px 17px
+}
+
+#profileButton.buttonDown {
+    color: #f99d1c;
+    background-size: 20px;
+    background: url(/helpdesk/resources/images/client/profile_down.png?v=12_5_2_84) no-repeat 16px 17px
+}
+
+#assetsButton.buttonUp {
+    background-size: 20px;
+    background: url(/helpdesk/resources/images/client/assets_up.png?v=12_5_2_84) no-repeat 16px 17px
+}
+
+#assetsButton.buttonDown {
+    color: #f99d1c;
+    background-size: 20px;
+    background: url(/helpdesk/resources/images/client/assets_down.png?v=12_5_2_84) no-repeat 16px 17px
+}
+
+#messagesButton.buttonUp {
+    background-size: 20px;
+    background: url(/helpdesk/resources/images/client/messages_up.png?v=12_5_2_84) no-repeat 16px 17px
+}
+
+#messagesButton.buttonDown {
+    color: #f99d1c;
+    background-size: 20px;
+    background: url(/helpdesk/resources/images/client/messages_down.png?v=12_5_2_84) no-repeat 16px 17px
+}
+
+.loginErrorMessageContainer {
+    width: 400px;
+    margin: 0 auto
+}
+
+    .loginErrorMessageContainer div#dialogContainer {
+        margin: 20px 0 0 0
+    }
+
+.loginMessageBox {
+    width: 400px;
+    margin: auto auto 20px auto;
+    background-color: white;
+    border: 1px #b0b0b0 solid
+}
+
+    .loginMessageBox .flexBox {
+        display: flex;
+        padding: 10px 6px
+    }
+
+    .loginMessageBox .loginMessageIcon {
+        padding-right: 5px;
+        padding-left: 2px
+    }
+
+    .loginMessageBox .loginMessageText {
+        line-height: 1.2;
+        align-self: center;
+        padding-right: 10px
+    }
+
+        .loginMessageBox .loginMessageText a:link {
+            font-weight: 900
+        }
+
+.clientProfileForm input {
+    margin-bottom: 2px;
+    font-size: 12px
+}
+
+div#footer {
+    clear: both;
+    background-color: #1d1d1d;
+    width: 100%;
+    font-size: 9px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    padding: 15px 0 15px 0;
+    color: #fff
+}
+
+#footer, #footer a {
+    color: #999
+}
+
+    #footer a:hover {
+        text-decoration: none
+    }
+
+#footerLeft {
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left
+}
+
+#userLinks {
+    position: absolute;
+    right: 5px;
+    top: 40px
+}
+
+    #userLinks li {
+        display: inline;
+        font-size: 12px;
+        color: #fff;
+        height: 30px;
+        line-height: 30px;
+        vertical-align: middle
+    }
+
+    #userLinks a {
+        display: inline-block;
+        padding-left: 2.5em;
+        margin-left: 5px;
+        font-size: 12px;
+        text-shadow: #f8f8f8 0 1px 0;
+        color: #555;
+        height: 30px;
+        line-height: 30px;
+        vertical-align: middle
+    }
+
+#logoutLink {
+    background: url(/helpdesk/connected.png?v=12_5_2_84) no-repeat left
+}
+
+    #logoutLink:hover {
+        background: url(/helpdesk/logout.png?v=12_5_2_84) no-repeat left
+    }
+
+#switchToTechLink {
+    background: url(/helpdesk/switch_accounts_client.png?v=12_5_2_84) no-repeat left
+}
+
+    #switchToTechLink:hover {
+        background: url(/helpdesk/switch_accounts_tech.png?v=12_5_2_84) no-repeat left
+    }
+
+#userSettingsLink {
+    background: url(/helpdesk/user_settings.png?v=12_5_2_84) no-repeat left
+}
+
+body, html {
+    height: 100%
+}
+
+body {
+    display: flex;
+    flex-direction: column
+}
+
+div#content {
+    flex: 1 0 auto
+}
+
+.boxcontent .loginFormBox .formLoginButton .aquaSquareButton, .boxcontent .forgotPasswordButtons .aquaSquareButton {
+    background: #297994;
+    border-color: #297994;
+    color: #ffffff
+}
