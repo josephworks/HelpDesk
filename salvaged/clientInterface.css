@@ -29,13 +29,13 @@
     position: relative
 }
 
-    #logoWell img {
-        width: 259px;
-        height: 61px;
-        position: absolute;
-        top: 50%;
-        margin-top: -30px
-    }
+#logoWell img {
+    width: 259px;
+    height: 61px;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px
+}
 
 #helpDeskName {
     display: none
@@ -143,9 +143,9 @@
     margin: 0 auto
 }
 
-    .loginErrorMessageContainer div#dialogContainer {
-        margin: 20px 0 0 0
-    }
+.loginErrorMessageContainer div#dialogContainer {
+    margin: 20px 0 0 0
+}
 
 .loginMessageBox {
     width: 400px;
@@ -154,25 +154,25 @@
     border: 1px #b0b0b0 solid
 }
 
-    .loginMessageBox .flexBox {
-        display: flex;
-        padding: 10px 6px
-    }
+.loginMessageBox .flexBox {
+    display: flex;
+    padding: 10px 6px
+}
 
-    .loginMessageBox .loginMessageIcon {
-        padding-right: 5px;
-        padding-left: 2px
-    }
+.loginMessageBox .loginMessageIcon {
+    padding-right: 5px;
+    padding-left: 2px
+}
 
-    .loginMessageBox .loginMessageText {
-        line-height: 1.2;
-        align-self: center;
-        padding-right: 10px
-    }
+.loginMessageBox .loginMessageText {
+    line-height: 1.2;
+    align-self: center;
+    padding-right: 10px
+}
 
-        .loginMessageBox .loginMessageText a:link {
-            font-weight: 900
-        }
+.loginMessageBox .loginMessageText a:link {
+    font-weight: 900
+}
 
 .clientProfileForm input {
     margin-bottom: 2px;
@@ -191,13 +191,14 @@ div#footer {
     color: #fff
 }
 
-#footer, #footer a {
+#footer,
+#footer a {
     color: #999
 }
 
-    #footer a:hover {
-        text-decoration: none
-    }
+#footer a:hover {
+    text-decoration: none
+}
 
 #footerLeft {
     padding-left: 20px;
@@ -211,48 +212,49 @@ div#footer {
     top: 40px
 }
 
-    #userLinks li {
-        display: inline;
-        font-size: 12px;
-        color: #fff;
-        height: 30px;
-        line-height: 30px;
-        vertical-align: middle
-    }
+#userLinks li {
+    display: inline;
+    font-size: 12px;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle
+}
 
-    #userLinks a {
-        display: inline-block;
-        padding-left: 2.5em;
-        margin-left: 5px;
-        font-size: 12px;
-        text-shadow: #f8f8f8 0 1px 0;
-        color: #555;
-        height: 30px;
-        line-height: 30px;
-        vertical-align: middle
-    }
+#userLinks a {
+    display: inline-block;
+    padding-left: 2.5em;
+    margin-left: 5px;
+    font-size: 12px;
+    text-shadow: #f8f8f8 0 1px 0;
+    color: #555;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle
+}
 
 #logoutLink {
     background: url(/helpdesk/connected.png?v=12_5_2_84) no-repeat left
 }
 
-    #logoutLink:hover {
-        background: url(/helpdesk/logout.png?v=12_5_2_84) no-repeat left
-    }
+#logoutLink:hover {
+    background: url(/helpdesk/logout.png?v=12_5_2_84) no-repeat left
+}
 
 #switchToTechLink {
     background: url(/helpdesk/switch_accounts_client.png?v=12_5_2_84) no-repeat left
 }
 
-    #switchToTechLink:hover {
-        background: url(/helpdesk/switch_accounts_tech.png?v=12_5_2_84) no-repeat left
-    }
+#switchToTechLink:hover {
+    background: url(/helpdesk/switch_accounts_tech.png?v=12_5_2_84) no-repeat left
+}
 
 #userSettingsLink {
     background: url(/helpdesk/user_settings.png?v=12_5_2_84) no-repeat left
 }
 
-body, html {
+body,
+html {
     height: 100%
 }
 
@@ -265,7 +267,8 @@ div#content {
     flex: 1 0 auto
 }
 
-.boxcontent .loginFormBox .formLoginButton .aquaSquareButton, .boxcontent .forgotPasswordButtons .aquaSquareButton {
+.boxcontent .loginFormBox .formLoginButton .aquaSquareButton,
+.boxcontent .forgotPasswordButtons .aquaSquareButton {
     background: #297994;
     border-color: #297994;
     color: #ffffff

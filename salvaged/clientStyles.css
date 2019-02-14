@@ -1,1 +1,1639 @@
-body{margin:0;font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;border:0 transparent;background:url(/helpdesk/resources/images/client/body_background.jpg?v=12_5_2_84) no-repeat fixed center}div.helpRequest{padding-left:25px;padding-bottom:20px}div#DetailsAndFaqContainer{display:block;float:left;width:100%}div#DetailsPanelDiv{padding-left:25px;padding-bottom:20px;width:97%;float:left}div#FaqPanelDiv{display:inline-table;float:right;vertical-align:top;width:300px}div.relatedFaqLink{display:block;cursor:pointer;color:#2c2c2c}div.relatedFaqLink:hover{text-decoration:underline;color:#263ffd}div#AssetPanelDiv{padding-left:25px;padding-bottom:20px;display:block}div.helpRequestButtonContainer{padding-right:25px;padding-bottom:50px;margin-top:20px}a:link{text-decoration:none}a:visited{text-decoration:none}ul{text-indent:0;padding:0 10px 0 20px;margin:10px 0 0 0}ol{text-indent:0;padding:0 10px 0 25px;margin:10px 0 0 0}select{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;font-weight:400}input{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;font-weight:400}textarea{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;font-weight:400}img{border:0}form{margin:0;padding:0}.required{font-family:'Open Sans', arial, Verdana, Helvetica, sans-serif;font-size:12px;font-weight:bold;text-align:right}td.surveyLabel{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;font-weight:700;padding-bottom:3px;width:70px;text-align:right;vertical-align:top;white-space:nowrap}td.surveyData{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;font-weight:400;padding-bottom:3px;padding-left:4px;vertical-align:top}td.surveyAnswer{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;font-weight:400}td.surveyQuestion{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;font-weight:bold;padding-bottom:3px;padding-top:10px}.defaultFont{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px}.problemTypeList{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px}.attachmentDetailsText{color:#888888;white-space:nowrap;margin:0}td.problemTypeHierarchy{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;font-weight:400;white-space:nowrap}td.completionStatusText{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;font-weight:400;color:#999999;padding-left:5px}td.completionBarLeft{height:20px;width:5px;background:url(/helpdesk/completion_bar_left.gif?v=12_5_2_84) no-repeat}td.completionBarBlue{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;font-weight:400;color:white;height:20px;background:url(/helpdesk/completion_bar_blue.gif?v=12_5_2_84) repeat-x;vertical-align:top}td.completionBarIndeterminate{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;font-weight:400;color:white;height:20px;background:url(/helpdesk/completion_bar_indeter.gif?v=12_5_2_84) repeat-x;vertical-align:top}td.completionBarIndeterLeft{height:20px;width:2px;background:url(/helpdesk/completion_bar_indeter_left.gif?v=12_5_2_84) no-repeat}td.completionBarIndeterRt{height:20px;width:2px;background:url(/helpdesk/completion_bar_indeter_rt.gif?v=12_5_2_84) no-repeat}td.completionBarDivider{height:20px;width:1px;background-image:url(/helpdesk/completion_bar_divider.gif?v=12_5_2_84);background-repeat:no-repeat}td.completionBarRemaining{height:20px;background:url(/helpdesk/completion_bar_remaining.gif?v=12_5_2_84) repeat-x}td.completionBarRight{height:20px;width:5px;background:url(/helpdesk/completion_bar_right.gif?v=12_5_2_84) no-repeat}td.bigThankYou{font-size:24px;font-weight:900;color:#333;text-align:center}div.buttonSpacer{display:block;width:5px;float:right}.aquaSmallButton{float:right;display:table-cell}div.aquaSmallLeft{width:10px;height:22px;background:url(/helpdesk/buttons/aqua_small_left.gif?v=12_5_2_84) no-repeat;float:left}div.aquaSmallRight{width:10px;height:22px;background:url(/helpdesk/buttons/aqua_small_right.gif?v=12_5_2_84) no-repeat;float:left}div.aquaSmallMiddle{width:auto;height:22px;background:url(/helpdesk/buttons/aqua_small_middle.gif?v=12_5_2_84) repeat-x;padding-left:3px;padding-right:3px;padding-top:3px;float:left;vertical-align:middle;cursor:pointer}div.aquaSmallLeftSel{width:10px;height:22px;background:url(/helpdesk/buttons/aqua_small_left_sel.gif?v=12_5_2_84) no-repeat;float:left}div.aquaSmallRightSel{width:10px;height:22px;background:url(/helpdesk/buttons/aqua_small_right_sel.gif?v=12_5_2_84) no-repeat;float:left}div.aquaSmallMiddleSel{width:auto;height:22px;background:url(/helpdesk/buttons/aqua_small_middle_sel.gif?v=12_5_2_84) repeat-x;padding-left:3px;padding-right:3px;padding-top:3px;float:left;vertical-align:middle;cursor:pointer}div.aquaMiniButton{text-align:center;font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:10px;font-weight:normal;letter-spacing:-0.01em;color:black;white-space:nowrap;vertical-align:middle;text-decoration:none;display:table-cell;float:right}div.aquaMiniButtonFloatLeft{text-align:center;font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:10px;font-weight:normal;letter-spacing:-0.01em;color:black;white-space:nowrap;vertical-align:middle;text-decoration:none;display:block;float:left}div.aquaMiniLeft{width:9px;height:16px;background:url(/helpdesk/buttons/aqua_mini_left.gif?v=12_5_2_84) no-repeat;float:left}div.aquaMiniRight{width:9px;height:16px;background:url(/helpdesk/buttons/aqua_mini_right.gif?v=12_5_2_84) no-repeat;float:left}div.aquaMiniMiddle{width:auto;height:16px;background:url(/helpdesk/buttons/aqua_mini_middle.gif?v=12_5_2_84) repeat-x;padding-left:3px;padding-right:3px;padding-top:1px;float:left;vertical-align:middle;min-width:20px;cursor:pointer}a.aquaMiniButtonLink:hover{color:black;text-decoration:none}div.aquaSquareButton{text-align:center;width:auto;font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;font-weight:normal;letter-spacing:-0.01em;color:#297994;white-space:nowrap;vertical-align:middle;cursor:pointer;display:table-cell;float:right}div.aquaSquareLeft{width:9px;display:none;height:24px;background-repeat:no-repeat;float:left;cursor:pointer}div.aquaSquareRight{width:9px;display:none;height:24px;background-repeat:no-repeat;float:left;cursor:pointer}div.aquaSquareMiddle{width:auto;min-width:50px;height:18px;background-repeat:repeat-x;padding-left:3px;padding-right:3px;padding-top:3px;float:left;vertical-align:middle;cursor:pointer;border:#297994 1px solid}.roundbox{background:#1d1d1d;position:relative;padding:35px}.roundbox .b3{background:white;border-left:1px solid #ccc;border-right:1px solid #ccc}.roundbox .b4b{background:white;border-left:1px solid #ccc;border-right:1px solid #ccc}.roundbox .b3b{background:white;border-left:1px solid #ccc;border-right:1px solid #ccc}.roundbox .b2b{background:white;border-left:1px solid #ccc;border-right:1px solid #ccc}.roundbox .b1{display:none}.roundbox .b2,.roundbox .b2b{display:none}.roundbox .b3,.roundbox .b3b{display:none}.roundbox .b4,.roundbox .b4b{display:none;height:2px;margin:0 1px}.roundbox .b1b{margin:0 5px;background:#ccc}.roundbox #NoteList{color:#000}.roundbox td.saveOptions{background-color:transparent}.boxcontent{color:#ffffff;font-size:12px}.boxcontent .loginFormBox label{color:#fff;font-weight:bold;display:inline-block;zoom:1;margin:4px 0 4px 0;width:100%;font-size:14px}.boxcontent .tabletext{padding:5px 0 5px 0;font-size:14px;width:100%;margin:0 0 10px 0 !important;box-sizing:border-box}.boxcontent .loginFormBox .formLoginButton .aquaSquareButton,.boxcontent .forgotPasswordButtons .aquaSquareButton{text-align:center;font-weight:bold;font-size:12px;padding:5px 0;margin-top:15px;float:left;clear:both;width:100%}.boxcontent .loginFormBox .forgotPasswordButton .aquaSquareButton{text-align:left;font-weight:bold;font-size:12px;padding:0px;margin-top:15px;border:none;background:none;color:#ffffff !important}.boxcontent .loginFormBox .newAccountButton{display:block;width:100%;float:left}.boxcontent .loginFormBox .newAccountButton .aquaSquareMiddle{color:#ffffff;font-weight:bold}.boxcontent .loginFormBox .aquaSquareButton .aquaSquareMiddle{border:none;float:none;font-size:12px}div.moduleLabel{font-size:18px;font-weight:900;display:inline-block;color:#fff;padding:5px 5px 5px 0;float:left;clear:both;white-space:nowrap}#warningMessage{top:4px;position:relative}div.moduleHeaderSearch{padding:5px;float:right;display:block}div.roundboxHeader{display:table;width:100%;margin-bottom:10px}div#loginContent{margin-top:40px;margin-left:25px;width:725px;text-align:left}div#content{padding:25px;text-align:left;margin:0;width:auto}div.boxTop{width:100%;height:4px;border-right:1px solid white;border-left:1px solid white}div.boxTopLeft{width:6px;height:4px;background:url(/helpdesk/resources/images/client/box_top_left.gif?v=12_5_2_84) no-repeat;float:left}div.boxTopMiddle{border-top:1px solid #ccc;float:none;width:100%;clear:left}div.boxTopRight{width:6px;height:4px;background:url(/helpdesk/resources/images/client/box_top_right.gif?v=12_5_2_84) no-repeat;float:right}table.boxTop{width:100%}td.boxTopLeft{width:6px;height:4px;background:url(/helpdesk/resources/images/client/box_top_left.gif?v=12_5_2_84) no-repeat}td.boxTopRight{width:6px;height:40px;background:url(/helpdesk/resources/images/client/box_top_right.gif?v=12_5_2_84) no-repeat}td.boxTop{height:40px;font-size:18px;font-weight:900;color:#333;padding-left:5px;background:url(/helpdesk/resources/images/client/box_top.gif?v=12_5_2_84) repeat-x;vertical-align:middle}td.confirmResolution{font-size:14px;font-weight:900;color:#03F;padding-right:5px;vertical-align:top}div.boxBottom{width:100%;min-height:12px;height:auto}table.boxBottom{width:100%;height:12px}td.boxBottomLeft{width:6px;height:12px;background:none no-repeat}td.boxBottomRight{width:6px;height:12px;background:none no-repeat}td.boxBottom{height:12px;background:none repeat-x}div.spacer{width:15px;height:1px}div#boxContent{width:100%;height:auto;border-right:1px solid #ccc;border-left:1px solid #ccc;text-align:left;display:block}* html div#boxContent{width:725px;w\idth:713px;padding-top:5px;height:auto;border-right:1px solid #ccc;border-left:1px solid #ccc;text-align:left;padding-left:10px}div#popupBoxContent{width:663px;padding-top:15px;height:auto;border-right:1px solid #ccc;border-left:1px solid #ccc;text-align:left;padding-left:10px}* html div#popupBoxContent{width:675px;padding-top:15px;height:auto;border-right:1px solid #ccc;border-left:1px solid #ccc;text-align:left;padding-left:10px}div.smallBoxContent{padding-top:10px;height:auto;border-right:1px solid #ccc;border-left:1px solid #ccc;text-align:center;padding-left:10px;padding-right:10px}div.smallBox{width:auto;padding-right:15px}table.filterOptions,table.filterOptionsAutoWidth{margin-left:25px;font-weight:700;margin-top:5px}table.filterOptionsAutoWidth{width:auto}td.filterLabel{font-size:11px;padding:2px 2px 2px 2px;white-space:nowrap;text-align:right}td.filterLabelTop{font-size:11px;padding:2px 2px 2px 2px;white-space:nowrap;text-align:right;vertical-align:top}td.filterData{padding:2px 10px 2px 2px}td.headerCenter{font-size:11px;text-align:center;font-weight:700;padding:2px 10px 5px 2px}td.headerLeft{font-size:11px;text-align:left;font-weight:700;padding:2px 10px 5px 2px}td.headerRight{font-size:11px;text-align:right;font-weight:700;padding:2px 10px 5px 2px}div#displayGroupBrowser{width:100%;text-align:center;display:block}table.DGBrowser{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;margin-left:auto;margin-right:auto}table.DGBrowser td{padding-left:2px;padding-right:2px;border-style:none}div#myAssets{float:right;padding-right:20px}table.helpRequest{display:inline-table;padding-right:20px}td.helpLabel{font-size:12px;font-weight:bold;padding-right:4px;text-align:right;height:30px;color:#333;white-space:nowrap}td.helpLabelNoWidth{font-size:12px;font-weight:bold;padding-right:4px;text-align:right;height:30px;color:#333;white-space:nowrap;width:75px}td.helpData{font-size:11px;text-align:left}td.helpDataTop{font-size:11px;text-align:left;vertical-align:top}td.customHelpLabel{font-size:12px;font-weight:bold;padding-right:4px;text-align:right;height:30px;color:#333;white-space:nowrap;width:100px;padding-top:3px;vertical-align:top}div#assetPartLabel{font-size:18px;font-weight:900;color:#333;text-align:left;padding:5px;clear:both;display:table}div.assetInfoMessage{width:100%}td.orText{color:#a50b11;font:bold 18px Helvetica, Arial, Geneva, sans-serif;padding-right:15px}.clientRequiredIndicator{color:red}td.faqQuestion{color:#666}div#cancelTicketButton{padding-top:5px;padding-right:10px;vertical-align:bottom;float:right}td.listCount{color:black;font-style:italic;vertical-align:middle;padding:6px 0 6px 8px}table.detailView{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px}td.labelRequiredLeft{text-align:left;padding:4px 4px 4px 8px;font-weight:700;height:30px;background:#fff url(/helpdesk/label_background.gif?v=12_5_2_84)}td.label{text-align:right;background:#fff url(/helpdesk/label_background.gif?v=12_5_2_84);padding:4px 2px 2px 2px;height:20px}td.labelTop{text-align:right;vertical-align:top;padding:4px 2px 2px 2px;height:20px;background:#fff url(/helpdesk/label_background.gif?v=12_5_2_84)}td.labelRequired{text-align:right;padding:4px 2px 2px 2px;font-weight:700;height:20px;background:#fff url(/helpdesk/label_background.gif?v=12_5_2_84)}td.labelBackground{background:#fff url(/helpdesk/label_background.gif?v=12_5_2_84)}td.data{background-color:#FFFFFF;padding:4px 2px 2px 2px;text-align:left}td.saveOptions{text-align:right;padding:4px 4px 4px 4px;background-color:#FFFFFF}td.outline{background-color:#aaa;padding:0;vertical-align:top}table#DGBrowser{font-size:11px;padding:2px 2px 2px 2px;margin-left:auto;margin-right:auto}td.leftAlignTop{font-size:11px;text-align:left;padding:4px 5px;height:20px;white-space:normal;vertical-align:top;background-color:white}td.rightAlignTop{font-size:11px;text-align:right;padding:4px 5px;height:20px;white-space:normal;vertical-align:top;background-color:white}td.centerAlignTop{font-size:11px;text-align:center;padding:4px 5px;height:20px;white-space:normal;vertical-align:top;background-color:white}td.columnDown{text-align:left;padding-left:5px;white-space:nowrap;text-decoration:underline;font-weight:bold}a.sortLink:hover{text-decoration:underline}td.columnUp{text-align:left;padding-left:5px;white-space:nowrap;font-weight:bold}td.headerStyle{font-size:11px;font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-weight:bold;white-space:nowrap;padding:0 10px 0 5px}td.headerStyleCenter,td.headerStyleRight{font-size:11px;font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-weight:bold;white-space:nowrap;text-align:center}td.headerStyleRight{text-align:right;padding-right:10px}table.columnHeader{font-size:11px;font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-weight:400;white-space:nowrap}table.columnHeader td a{color:#000000;font-weight:bold}td.sortDescending{background:#fff url(/helpdesk/resources/images/client/descending_triangle.gif?v=12_5_2_84);width:15px;height:15px;white-space:nowrap}td.sortAscending{background:#fff url(/helpdesk/resources/images/client/ascending_triangle.gif?v=12_5_2_84);width:15px;height:15px;white-space:nowrap}table.alternatingRowColor{border:1px solid #aaa;border-spacing:0;border-collapse:collapse}tr.header td{border-color:#aaa;border-style:solid;border-width:0 1px 1px 0}tr.btnRow td{border-color:#aaa;border-style:solid;border-width:1px 1px 0 0;padding-right:5px}tr.white td{background-color:#fff;border:0 solid #ccc;border-bottom-width:1px}tr.shaded td{background-color:#ecf2fe;border:0 solid #ccc;border-bottom-width:1px}tr.whiteWithBorder td{background-color:#fff;border:0 solid #aaa;border-right-width:1px}tr.shadedWithBorder td{background-color:#ecf2fe;border:0 solid #aaa;border-right-width:1px}div.noBorder td{border-width:0}tr.FaqAttachmentBackground td{background-color:#e9f7e6;border-style:none}#rememberMeLabel{color:#5e5e5e;font-size:10px}div.messageBox{width:400px;border:1px solid #b0b0b0;margin:20px auto}div.loginContent{height:auto;vertical-align:top;border-right-width:1px;border-left-width:1px;text-align:left;padding:3px 10px;voice-family:inherit;width:378px}div#messageIcon{margin-right:5px;float:left}div#loginBox{width:400px;margin:45px auto;-moz-box-shadow:0 1px 5px 0 #b9b9b9;-webkit-box-shadow:0 1px 5px 0 #b9b9b9;box-shadow:0 1px 5px 0 #b9b9b9}div#loginBox input[type=text],div#loginBox input[type=password],div#loginBox .tabletext{margin-left:4px}div#loginBoxBottom{margin:auto;width:400px;height:28px}div#loginForm{margin:auto;width:411px;padding-top:15px;border-right:1px solid #ccc;border-left:1px solid #ccc;vertical-align:top}div#userWellRight{background:url(/helpdesk/resources/images/client/user_well_right.gif?v=12_5_2_84) no-repeat;width:12px;height:21px;float:right}div#userWellMiddle{background:url(/helpdesk/resources/images/client/user_well_middle.gif?v=12_5_2_84) repeat-x;width:auto;height:21px;vertical-align:middle;padding-top:3px;padding-left:4px;float:right;color:#333}div#userWellLeft{background:url(/helpdesk/resources/images/client/user_well_left.gif?v=12_5_2_84) no-repeat;width:8px;height:21px;float:right}.grayText{color:#999;text-align:left;font-weight:normal}.errorFont{color:#F30;font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;font-weight:bold}.stackTrace{color:#666}.stackTrace a{color:#666}.stackTrace a:hover{text-decoration:underline}.thankYou{font-weight:900;padding:5px 5px 5px 0}div#logoutContent{margin-left:25px;width:675px;text-align:left;margin-top:40px}div.spacer{width:15px;height:1px}div#myAssetsContent{padding-top:10px;height:auto;border-right:1px solid #ccc;border-left:1px solid #ccc;text-align:center;padding-left:10px;padding-right:10px}table.assetInfoTable{padding:15px 0 0 0;width:95%}div#myAssets{width:300px}div.searchContent{margin-top:20px;margin-right:10px}div.faqProblemTypeMoreElementsInfo{margin-left:2px;margin-top:2px;opacity:0.6}div.relatedFaqContent{margin-right:10px}table.searchContent{width:100%}table.relatedFaqTable{width:100%}table.relatedFaqTable td{padding-left:5px;padding-right:5px;font-size:10px;color:#2b2b2b}table#DGBrowser{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;margin-left:auto;margin-right:auto}table#DGBrowser td{padding-left:2px;padding-right:2px}td.inactiveHeader{background:#fff url(/helpdesk/column_header_up.gif?v=12_5_2_84);text-align:center;white-space:nowrap;height:15px;padding-left:10px;padding-right:10px;font-size:11px;font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-weight:400}td.inactiveHeaderLeft{background:#fff url(/helpdesk/column_header_up.gif?v=12_5_2_84);text-align:left;white-space:nowrap;height:15px;padding-left:10px;font-size:11px;font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-weight:400}td.outline{background-color:#aaa;padding:0px 0px 0px 0px;vertical-align:top}div.marginBottom{vertical-align:top;margin-bottom:10px}td.leftAlignTop{font-size:11px;text-align:left;padding:4px 5px;height:20px;white-space:normal;vertical-align:top;background-color:white}td.centerAlignTop{font-size:11px;text-align:center;padding:4px 5px;height:20px;white-space:normal;vertical-align:top;background-color:white}td.saveOptionsMessage{text-align:left;padding:10px 0 10px 2px;background-color:white;vertical-align:top}div.nestedAlignRight{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;text-align:right}div.nestedAlignRightNoWrap{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;text-align:right;white-space:nowrap}div.dialogBoxTop{width:400px;height:5px;font-size:1px;line-height:1px;background:none no-repeat}div.dialogBoxBottom{width:400px;height:8px;background:none no-repeat}div#dialogContent{height:auto;vertical-align:top;border-right:1px solid #ccc;border-left:1px solid #ccc;text-align:left;padding:3px 10px;background-color:white;voice-family:inherit;width:378px}.dialogMessage{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px;font-weight:900}div#dialog{margin-bottom:10px;width:100%}table.helpPopup{width:100%;border:0;text-align:left}td.helpText{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px}td.changeMsg{font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:12px}td.tipRight{text-align:right;background-color:white;vertical-align:middle;padding-right:8px}span.helpLink a{color:black;text-decoration:none}span.helpLinkMsgAttached a{color:green;text-decoration:none}span.helpLinkNoMsgAttached a{color:red;text-decoration:none}div.messageTitleBar{height:17px;border-right:1px solid #FFC700;border-left:1px solid #FFC700;background:url(/helpdesk/message/title_bar.gif?v=12_5_2_84) repeat-x}div.messageTitleBarText{padding-top:2px;font-size:10px;text-align:right;padding-right:5px}div.messageContent{height:auto;vertical-align:top;border-color:#FFC700;border-right:1px solid;border-bottom:1px solid;border-left:1px solid;text-align:left;margin-bottom:20px;background-color:#FFFFA1}div.messageCloseWidget{width:13px;height:17px;float:left}div.clientMessageContainer{padding-left:50px;padding-bottom:30px}div.tabPanelTop{width:433px;height:19px;text-align:center;background:url(/helpdesk/message/tab_panel_top.gif?v=12_5_2_84) no-repeat}div.tabPanelBackground{width:433px;height:auto;text-align:right;padding-top:20px;padding-bottom:1px;background:url(/helpdesk/message/tab_panel_background.gif?v=12_5_2_84) repeat-y}div.tabPanelBottom{width:433px;height:11px;background:url(/helpdesk/message/tab_panel_bottom.gif?v=12_5_2_84) no-repeat}div.messageContainer{width:95%;height:auto;text-align:center;margin:0 auto;font-family:"Lucida Grande", Arial, Helvetica, sans-serif;font-size:11px}div.buttonContainer{width:220px;margin:0 auto}td.audienceLabel{text-align:center;vertical-align:middle;font-size:11px;padding:1px 3px;white-space:nowrap;background-color:#fff}div.buttonDiv{height:30px}div.assetInfoRow{width:auto;display:block;font-size:10px;font-family:"Lucida Grande", Arial, Helvetica, sans-serif;padding:0 0 4px 0}div.assetInfoLabel{font-weight:bold;display:inline;width:200px;text-align:right;padding:0 2px 0 0;color:#333;height:100%}div.assetInfoData{display:inline}table#clientListSearch{font-size:10px}table#clientListSearch td{background-color:#fff;height:15px}table#clientList{font-size:10px;font-family:"Lucida Grande", Arial, Helvetica, sans-serif}#clientList{padding-top:10px;vertical-align:top}body.clientWhiteBackground{background-image:none}.clientWhiteBackground .roundbox{background:white;color:black;padding:15px;border:1px solid #b0b0b0}.clientWhiteBackground .boxcontent{color:black}.clientWhiteBackground .boxcontent .moduleLabel{color:black}.clientWhiteBackground table.tabletext{margin:auto !important}.clientWhiteBackground td.helpData{font-size:12px;font-family:'Open Sans', arial, Verdana, Helvetica, sans-serif}.clientWhiteBackground .ui-widget{border:1px grey solid}.clientWhiteBackground .colorLabel{font-size:12px;font-family:'Open Sans', arial, Verdana, Helvetica, sans-serif}.clientWhiteBackground td.inactiveHeaderLeft{background:#fff;font-weight:bold}.clientWhiteBackground .boxBottom{display:none}.newAccountLoginScreen{margin:40px auto;width:450px}.newAccountTable{width:100%}.newAccountLoginScreen .boxcontent{width:100%;overflow:initial}.newAccountLoginScreen input:not([type="radio"]){width:100%}.newAccountLoginScreen select{width:calc(100% + 4px) !important}.newAccountLoginScreen td.helpData{min-width:190px}
+body {
+    margin: 0;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    border: 0 transparent;
+    background: url(/helpdesk/resources/images/client/body_background.jpg?v=12_5_2_84) no-repeat fixed center
+}
+
+div.helpRequest {
+    padding-left: 25px;
+    padding-bottom: 20px
+}
+
+div#DetailsAndFaqContainer {
+    display: block;
+    float: left;
+    width: 100%
+}
+
+div#DetailsPanelDiv {
+    padding-left: 25px;
+    padding-bottom: 20px;
+    width: 97%;
+    float: left
+}
+
+div#FaqPanelDiv {
+    display: inline-table;
+    float: right;
+    vertical-align: top;
+    width: 300px
+}
+
+div.relatedFaqLink {
+    display: block;
+    cursor: pointer;
+    color: #2c2c2c
+}
+
+div.relatedFaqLink:hover {
+    text-decoration: underline;
+    color: #263ffd
+}
+
+div#AssetPanelDiv {
+    padding-left: 25px;
+    padding-bottom: 20px;
+    display: block
+}
+
+div.helpRequestButtonContainer {
+    padding-right: 25px;
+    padding-bottom: 50px;
+    margin-top: 20px
+}
+
+a:link {
+    text-decoration: none
+}
+
+a:visited {
+    text-decoration: none
+}
+
+ul {
+    text-indent: 0;
+    padding: 0 10px 0 20px;
+    margin: 10px 0 0 0
+}
+
+ol {
+    text-indent: 0;
+    padding: 0 10px 0 25px;
+    margin: 10px 0 0 0
+}
+
+select {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 400
+}
+
+input {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 400
+}
+
+textarea {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 400
+}
+
+img {
+    border: 0
+}
+
+form {
+    margin: 0;
+    padding: 0
+}
+
+.required {
+    font-family: 'Open Sans', arial, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right
+}
+
+td.surveyLabel {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    padding-bottom: 3px;
+    width: 70px;
+    text-align: right;
+    vertical-align: top;
+    white-space: nowrap
+}
+
+td.surveyData {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    padding-bottom: 3px;
+    padding-left: 4px;
+    vertical-align: top
+}
+
+td.surveyAnswer {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 400
+}
+
+td.surveyQuestion {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding-bottom: 3px;
+    padding-top: 10px
+}
+
+.defaultFont {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px
+}
+
+.problemTypeList {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px
+}
+
+.attachmentDetailsText {
+    color: #888888;
+    white-space: nowrap;
+    margin: 0
+}
+
+td.problemTypeHierarchy {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    white-space: nowrap
+}
+
+td.completionStatusText {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #999999;
+    padding-left: 5px
+}
+
+td.completionBarLeft {
+    height: 20px;
+    width: 5px;
+    background: url(/helpdesk/completion_bar_left.gif?v=12_5_2_84) no-repeat
+}
+
+td.completionBarBlue {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: white;
+    height: 20px;
+    background: url(/helpdesk/completion_bar_blue.gif?v=12_5_2_84) repeat-x;
+    vertical-align: top
+}
+
+td.completionBarIndeterminate {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: white;
+    height: 20px;
+    background: url(/helpdesk/completion_bar_indeter.gif?v=12_5_2_84) repeat-x;
+    vertical-align: top
+}
+
+td.completionBarIndeterLeft {
+    height: 20px;
+    width: 2px;
+    background: url(/helpdesk/completion_bar_indeter_left.gif?v=12_5_2_84) no-repeat
+}
+
+td.completionBarIndeterRt {
+    height: 20px;
+    width: 2px;
+    background: url(/helpdesk/completion_bar_indeter_rt.gif?v=12_5_2_84) no-repeat
+}
+
+td.completionBarDivider {
+    height: 20px;
+    width: 1px;
+    background-image: url(/helpdesk/completion_bar_divider.gif?v=12_5_2_84);
+    background-repeat: no-repeat
+}
+
+td.completionBarRemaining {
+    height: 20px;
+    background: url(/helpdesk/completion_bar_remaining.gif?v=12_5_2_84) repeat-x
+}
+
+td.completionBarRight {
+    height: 20px;
+    width: 5px;
+    background: url(/helpdesk/completion_bar_right.gif?v=12_5_2_84) no-repeat
+}
+
+td.bigThankYou {
+    font-size: 24px;
+    font-weight: 900;
+    color: #333;
+    text-align: center
+}
+
+div.buttonSpacer {
+    display: block;
+    width: 5px;
+    float: right
+}
+
+.aquaSmallButton {
+    float: right;
+    display: table-cell
+}
+
+div.aquaSmallLeft {
+    width: 10px;
+    height: 22px;
+    background: url(/helpdesk/buttons/aqua_small_left.gif?v=12_5_2_84) no-repeat;
+    float: left
+}
+
+div.aquaSmallRight {
+    width: 10px;
+    height: 22px;
+    background: url(/helpdesk/buttons/aqua_small_right.gif?v=12_5_2_84) no-repeat;
+    float: left
+}
+
+div.aquaSmallMiddle {
+    width: auto;
+    height: 22px;
+    background: url(/helpdesk/buttons/aqua_small_middle.gif?v=12_5_2_84) repeat-x;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    float: left;
+    vertical-align: middle;
+    cursor: pointer
+}
+
+div.aquaSmallLeftSel {
+    width: 10px;
+    height: 22px;
+    background: url(/helpdesk/buttons/aqua_small_left_sel.gif?v=12_5_2_84) no-repeat;
+    float: left
+}
+
+div.aquaSmallRightSel {
+    width: 10px;
+    height: 22px;
+    background: url(/helpdesk/buttons/aqua_small_right_sel.gif?v=12_5_2_84) no-repeat;
+    float: left
+}
+
+div.aquaSmallMiddleSel {
+    width: auto;
+    height: 22px;
+    background: url(/helpdesk/buttons/aqua_small_middle_sel.gif?v=12_5_2_84) repeat-x;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    float: left;
+    vertical-align: middle;
+    cursor: pointer
+}
+
+div.aquaMiniButton {
+    text-align: center;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    letter-spacing: -0.01em;
+    color: black;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-decoration: none;
+    display: table-cell;
+    float: right
+}
+
+div.aquaMiniButtonFloatLeft {
+    text-align: center;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    letter-spacing: -0.01em;
+    color: black;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-decoration: none;
+    display: block;
+    float: left
+}
+
+div.aquaMiniLeft {
+    width: 9px;
+    height: 16px;
+    background: url(/helpdesk/buttons/aqua_mini_left.gif?v=12_5_2_84) no-repeat;
+    float: left
+}
+
+div.aquaMiniRight {
+    width: 9px;
+    height: 16px;
+    background: url(/helpdesk/buttons/aqua_mini_right.gif?v=12_5_2_84) no-repeat;
+    float: left
+}
+
+div.aquaMiniMiddle {
+    width: auto;
+    height: 16px;
+    background: url(/helpdesk/buttons/aqua_mini_middle.gif?v=12_5_2_84) repeat-x;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 1px;
+    float: left;
+    vertical-align: middle;
+    min-width: 20px;
+    cursor: pointer
+}
+
+a.aquaMiniButtonLink:hover {
+    color: black;
+    text-decoration: none
+}
+
+div.aquaSquareButton {
+    text-align: center;
+    width: auto;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    letter-spacing: -0.01em;
+    color: #297994;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    display: table-cell;
+    float: right
+}
+
+div.aquaSquareLeft {
+    width: 9px;
+    display: none;
+    height: 24px;
+    background-repeat: no-repeat;
+    float: left;
+    cursor: pointer
+}
+
+div.aquaSquareRight {
+    width: 9px;
+    display: none;
+    height: 24px;
+    background-repeat: no-repeat;
+    float: left;
+    cursor: pointer
+}
+
+div.aquaSquareMiddle {
+    width: auto;
+    min-width: 50px;
+    height: 18px;
+    background-repeat: repeat-x;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    float: left;
+    vertical-align: middle;
+    cursor: pointer;
+    border: #297994 1px solid
+}
+
+.roundbox {
+    background: #1d1d1d;
+    position: relative;
+    padding: 35px
+}
+
+.roundbox .b3 {
+    background: white;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc
+}
+
+.roundbox .b4b {
+    background: white;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc
+}
+
+.roundbox .b3b {
+    background: white;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc
+}
+
+.roundbox .b2b {
+    background: white;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc
+}
+
+.roundbox .b1 {
+    display: none
+}
+
+.roundbox .b2,
+.roundbox .b2b {
+    display: none
+}
+
+.roundbox .b3,
+.roundbox .b3b {
+    display: none
+}
+
+.roundbox .b4,
+.roundbox .b4b {
+    display: none;
+    height: 2px;
+    margin: 0 1px
+}
+
+.roundbox .b1b {
+    margin: 0 5px;
+    background: #ccc
+}
+
+.roundbox #NoteList {
+    color: #000
+}
+
+.roundbox td.saveOptions {
+    background-color: transparent
+}
+
+.boxcontent {
+    color: #ffffff;
+    font-size: 12px
+}
+
+.boxcontent .loginFormBox label {
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    zoom: 1;
+    margin: 4px 0 4px 0;
+    width: 100%;
+    font-size: 14px
+}
+
+.boxcontent .tabletext {
+    padding: 5px 0 5px 0;
+    font-size: 14px;
+    width: 100%;
+    margin: 0 0 10px 0 !important;
+    box-sizing: border-box
+}
+
+.boxcontent .loginFormBox .formLoginButton .aquaSquareButton,
+.boxcontent .forgotPasswordButtons .aquaSquareButton {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 0;
+    margin-top: 15px;
+    float: left;
+    clear: both;
+    width: 100%
+}
+
+.boxcontent .loginFormBox .forgotPasswordButton .aquaSquareButton {
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0px;
+    margin-top: 15px;
+    border: none;
+    background: none;
+    color: #ffffff !important
+}
+
+.boxcontent .loginFormBox .newAccountButton {
+    display: block;
+    width: 100%;
+    float: left
+}
+
+.boxcontent .loginFormBox .newAccountButton .aquaSquareMiddle {
+    color: #ffffff;
+    font-weight: bold
+}
+
+.boxcontent .loginFormBox .aquaSquareButton .aquaSquareMiddle {
+    border: none;
+    float: none;
+    font-size: 12px
+}
+
+div.moduleLabel {
+    font-size: 18px;
+    font-weight: 900;
+    display: inline-block;
+    color: #fff;
+    padding: 5px 5px 5px 0;
+    float: left;
+    clear: both;
+    white-space: nowrap
+}
+
+#warningMessage {
+    top: 4px;
+    position: relative
+}
+
+div.moduleHeaderSearch {
+    padding: 5px;
+    float: right;
+    display: block
+}
+
+div.roundboxHeader {
+    display: table;
+    width: 100%;
+    margin-bottom: 10px
+}
+
+div#loginContent {
+    margin-top: 40px;
+    margin-left: 25px;
+    width: 725px;
+    text-align: left
+}
+
+div#content {
+    padding: 25px;
+    text-align: left;
+    margin: 0;
+    width: auto
+}
+
+div.boxTop {
+    width: 100%;
+    height: 4px;
+    border-right: 1px solid white;
+    border-left: 1px solid white
+}
+
+div.boxTopLeft {
+    width: 6px;
+    height: 4px;
+    background: url(/helpdesk/resources/images/client/box_top_left.gif?v=12_5_2_84) no-repeat;
+    float: left
+}
+
+div.boxTopMiddle {
+    border-top: 1px solid #ccc;
+    float: none;
+    width: 100%;
+    clear: left
+}
+
+div.boxTopRight {
+    width: 6px;
+    height: 4px;
+    background: url(/helpdesk/resources/images/client/box_top_right.gif?v=12_5_2_84) no-repeat;
+    float: right
+}
+
+table.boxTop {
+    width: 100%
+}
+
+td.boxTopLeft {
+    width: 6px;
+    height: 4px;
+    background: url(/helpdesk/resources/images/client/box_top_left.gif?v=12_5_2_84) no-repeat
+}
+
+td.boxTopRight {
+    width: 6px;
+    height: 40px;
+    background: url(/helpdesk/resources/images/client/box_top_right.gif?v=12_5_2_84) no-repeat
+}
+
+td.boxTop {
+    height: 40px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    padding-left: 5px;
+    background: url(/helpdesk/resources/images/client/box_top.gif?v=12_5_2_84) repeat-x;
+    vertical-align: middle
+}
+
+td.confirmResolution {
+    font-size: 14px;
+    font-weight: 900;
+    color: #03F;
+    padding-right: 5px;
+    vertical-align: top
+}
+
+div.boxBottom {
+    width: 100%;
+    min-height: 12px;
+    height: auto
+}
+
+table.boxBottom {
+    width: 100%;
+    height: 12px
+}
+
+td.boxBottomLeft {
+    width: 6px;
+    height: 12px;
+    background: none no-repeat
+}
+
+td.boxBottomRight {
+    width: 6px;
+    height: 12px;
+    background: none no-repeat
+}
+
+td.boxBottom {
+    height: 12px;
+    background: none repeat-x
+}
+
+div.spacer {
+    width: 15px;
+    height: 1px
+}
+
+div#boxContent {
+    width: 100%;
+    height: auto;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-align: left;
+    display: block
+}
+
+* html div#boxContent {
+    width: 725px;
+    w\idth: 713px;
+    padding-top: 5px;
+    height: auto;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-align: left;
+    padding-left: 10px
+}
+
+div#popupBoxContent {
+    width: 663px;
+    padding-top: 15px;
+    height: auto;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-align: left;
+    padding-left: 10px
+}
+
+* html div#popupBoxContent {
+    width: 675px;
+    padding-top: 15px;
+    height: auto;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-align: left;
+    padding-left: 10px
+}
+
+div.smallBoxContent {
+    padding-top: 10px;
+    height: auto;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+div.smallBox {
+    width: auto;
+    padding-right: 15px
+}
+
+table.filterOptions,
+table.filterOptionsAutoWidth {
+    margin-left: 25px;
+    font-weight: 700;
+    margin-top: 5px
+}
+
+table.filterOptionsAutoWidth {
+    width: auto
+}
+
+td.filterLabel {
+    font-size: 11px;
+    padding: 2px 2px 2px 2px;
+    white-space: nowrap;
+    text-align: right
+}
+
+td.filterLabelTop {
+    font-size: 11px;
+    padding: 2px 2px 2px 2px;
+    white-space: nowrap;
+    text-align: right;
+    vertical-align: top
+}
+
+td.filterData {
+    padding: 2px 10px 2px 2px
+}
+
+td.headerCenter {
+    font-size: 11px;
+    text-align: center;
+    font-weight: 700;
+    padding: 2px 10px 5px 2px
+}
+
+td.headerLeft {
+    font-size: 11px;
+    text-align: left;
+    font-weight: 700;
+    padding: 2px 10px 5px 2px
+}
+
+td.headerRight {
+    font-size: 11px;
+    text-align: right;
+    font-weight: 700;
+    padding: 2px 10px 5px 2px
+}
+
+div#displayGroupBrowser {
+    width: 100%;
+    text-align: center;
+    display: block
+}
+
+table.DGBrowser {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+table.DGBrowser td {
+    padding-left: 2px;
+    padding-right: 2px;
+    border-style: none
+}
+
+div#myAssets {
+    float: right;
+    padding-right: 20px
+}
+
+table.helpRequest {
+    display: inline-table;
+    padding-right: 20px
+}
+
+td.helpLabel {
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 4px;
+    text-align: right;
+    height: 30px;
+    color: #333;
+    white-space: nowrap
+}
+
+td.helpLabelNoWidth {
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 4px;
+    text-align: right;
+    height: 30px;
+    color: #333;
+    white-space: nowrap;
+    width: 75px
+}
+
+td.helpData {
+    font-size: 11px;
+    text-align: left
+}
+
+td.helpDataTop {
+    font-size: 11px;
+    text-align: left;
+    vertical-align: top
+}
+
+td.customHelpLabel {
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 4px;
+    text-align: right;
+    height: 30px;
+    color: #333;
+    white-space: nowrap;
+    width: 100px;
+    padding-top: 3px;
+    vertical-align: top
+}
+
+div#assetPartLabel {
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+    text-align: left;
+    padding: 5px;
+    clear: both;
+    display: table
+}
+
+div.assetInfoMessage {
+    width: 100%
+}
+
+td.orText {
+    color: #a50b11;
+    font: bold 18px Helvetica, Arial, Geneva, sans-serif;
+    padding-right: 15px
+}
+
+.clientRequiredIndicator {
+    color: red
+}
+
+td.faqQuestion {
+    color: #666
+}
+
+div#cancelTicketButton {
+    padding-top: 5px;
+    padding-right: 10px;
+    vertical-align: bottom;
+    float: right
+}
+
+td.listCount {
+    color: black;
+    font-style: italic;
+    vertical-align: middle;
+    padding: 6px 0 6px 8px
+}
+
+table.detailView {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px
+}
+
+td.labelRequiredLeft {
+    text-align: left;
+    padding: 4px 4px 4px 8px;
+    font-weight: 700;
+    height: 30px;
+    background: #fff url(/helpdesk/label_background.gif?v=12_5_2_84)
+}
+
+td.label {
+    text-align: right;
+    background: #fff url(/helpdesk/label_background.gif?v=12_5_2_84);
+    padding: 4px 2px 2px 2px;
+    height: 20px
+}
+
+td.labelTop {
+    text-align: right;
+    vertical-align: top;
+    padding: 4px 2px 2px 2px;
+    height: 20px;
+    background: #fff url(/helpdesk/label_background.gif?v=12_5_2_84)
+}
+
+td.labelRequired {
+    text-align: right;
+    padding: 4px 2px 2px 2px;
+    font-weight: 700;
+    height: 20px;
+    background: #fff url(/helpdesk/label_background.gif?v=12_5_2_84)
+}
+
+td.labelBackground {
+    background: #fff url(/helpdesk/label_background.gif?v=12_5_2_84)
+}
+
+td.data {
+    background-color: #FFFFFF;
+    padding: 4px 2px 2px 2px;
+    text-align: left
+}
+
+td.saveOptions {
+    text-align: right;
+    padding: 4px 4px 4px 4px;
+    background-color: #FFFFFF
+}
+
+td.outline {
+    background-color: #aaa;
+    padding: 0;
+    vertical-align: top
+}
+
+table#DGBrowser {
+    font-size: 11px;
+    padding: 2px 2px 2px 2px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+td.leftAlignTop {
+    font-size: 11px;
+    text-align: left;
+    padding: 4px 5px;
+    height: 20px;
+    white-space: normal;
+    vertical-align: top;
+    background-color: white
+}
+
+td.rightAlignTop {
+    font-size: 11px;
+    text-align: right;
+    padding: 4px 5px;
+    height: 20px;
+    white-space: normal;
+    vertical-align: top;
+    background-color: white
+}
+
+td.centerAlignTop {
+    font-size: 11px;
+    text-align: center;
+    padding: 4px 5px;
+    height: 20px;
+    white-space: normal;
+    vertical-align: top;
+    background-color: white
+}
+
+td.columnDown {
+    text-align: left;
+    padding-left: 5px;
+    white-space: nowrap;
+    text-decoration: underline;
+    font-weight: bold
+}
+
+a.sortLink:hover {
+    text-decoration: underline
+}
+
+td.columnUp {
+    text-align: left;
+    padding-left: 5px;
+    white-space: nowrap;
+    font-weight: bold
+}
+
+td.headerStyle {
+    font-size: 11px;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+    padding: 0 10px 0 5px
+}
+
+td.headerStyleCenter,
+td.headerStyleRight {
+    font-size: 11px;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center
+}
+
+td.headerStyleRight {
+    text-align: right;
+    padding-right: 10px
+}
+
+table.columnHeader {
+    font-size: 11px;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    white-space: nowrap
+}
+
+table.columnHeader td a {
+    color: #000000;
+    font-weight: bold
+}
+
+td.sortDescending {
+    background: #fff url(/helpdesk/resources/images/client/descending_triangle.gif?v=12_5_2_84);
+    width: 15px;
+    height: 15px;
+    white-space: nowrap
+}
+
+td.sortAscending {
+    background: #fff url(/helpdesk/resources/images/client/ascending_triangle.gif?v=12_5_2_84);
+    width: 15px;
+    height: 15px;
+    white-space: nowrap
+}
+
+table.alternatingRowColor {
+    border: 1px solid #aaa;
+    border-spacing: 0;
+    border-collapse: collapse
+}
+
+tr.header td {
+    border-color: #aaa;
+    border-style: solid;
+    border-width: 0 1px 1px 0
+}
+
+tr.btnRow td {
+    border-color: #aaa;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+    padding-right: 5px
+}
+
+tr.white td {
+    background-color: #fff;
+    border: 0 solid #ccc;
+    border-bottom-width: 1px
+}
+
+tr.shaded td {
+    background-color: #ecf2fe;
+    border: 0 solid #ccc;
+    border-bottom-width: 1px
+}
+
+tr.whiteWithBorder td {
+    background-color: #fff;
+    border: 0 solid #aaa;
+    border-right-width: 1px
+}
+
+tr.shadedWithBorder td {
+    background-color: #ecf2fe;
+    border: 0 solid #aaa;
+    border-right-width: 1px
+}
+
+div.noBorder td {
+    border-width: 0
+}
+
+tr.FaqAttachmentBackground td {
+    background-color: #e9f7e6;
+    border-style: none
+}
+
+#rememberMeLabel {
+    color: #5e5e5e;
+    font-size: 10px
+}
+
+div.messageBox {
+    width: 400px;
+    border: 1px solid #b0b0b0;
+    margin: 20px auto
+}
+
+div.loginContent {
+    height: auto;
+    vertical-align: top;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    text-align: left;
+    padding: 3px 10px;
+    voice-family: inherit;
+    width: 378px
+}
+
+div#messageIcon {
+    margin-right: 5px;
+    float: left
+}
+
+div#loginBox {
+    width: 400px;
+    margin: 45px auto;
+    -moz-box-shadow: 0 1px 5px 0 #b9b9b9;
+    -webkit-box-shadow: 0 1px 5px 0 #b9b9b9;
+    box-shadow: 0 1px 5px 0 #b9b9b9
+}
+
+div#loginBox input[type=text],
+div#loginBox input[type=password],
+div#loginBox .tabletext {
+    margin-left: 4px
+}
+
+div#loginBoxBottom {
+    margin: auto;
+    width: 400px;
+    height: 28px
+}
+
+div#loginForm {
+    margin: auto;
+    width: 411px;
+    padding-top: 15px;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    vertical-align: top
+}
+
+div#userWellRight {
+    background: url(/helpdesk/resources/images/client/user_well_right.gif?v=12_5_2_84) no-repeat;
+    width: 12px;
+    height: 21px;
+    float: right
+}
+
+div#userWellMiddle {
+    background: url(/helpdesk/resources/images/client/user_well_middle.gif?v=12_5_2_84) repeat-x;
+    width: auto;
+    height: 21px;
+    vertical-align: middle;
+    padding-top: 3px;
+    padding-left: 4px;
+    float: right;
+    color: #333
+}
+
+div#userWellLeft {
+    background: url(/helpdesk/resources/images/client/user_well_left.gif?v=12_5_2_84) no-repeat;
+    width: 8px;
+    height: 21px;
+    float: right
+}
+
+.grayText {
+    color: #999;
+    text-align: left;
+    font-weight: normal
+}
+
+.errorFont {
+    color: #F30;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold
+}
+
+.stackTrace {
+    color: #666
+}
+
+.stackTrace a {
+    color: #666
+}
+
+.stackTrace a:hover {
+    text-decoration: underline
+}
+
+.thankYou {
+    font-weight: 900;
+    padding: 5px 5px 5px 0
+}
+
+div#logoutContent {
+    margin-left: 25px;
+    width: 675px;
+    text-align: left;
+    margin-top: 40px
+}
+
+div.spacer {
+    width: 15px;
+    height: 1px
+}
+
+div#myAssetsContent {
+    padding-top: 10px;
+    height: auto;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+table.assetInfoTable {
+    padding: 15px 0 0 0;
+    width: 95%
+}
+
+div#myAssets {
+    width: 300px
+}
+
+div.searchContent {
+    margin-top: 20px;
+    margin-right: 10px
+}
+
+div.faqProblemTypeMoreElementsInfo {
+    margin-left: 2px;
+    margin-top: 2px;
+    opacity: 0.6
+}
+
+div.relatedFaqContent {
+    margin-right: 10px
+}
+
+table.searchContent {
+    width: 100%
+}
+
+table.relatedFaqTable {
+    width: 100%
+}
+
+table.relatedFaqTable td {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 10px;
+    color: #2b2b2b
+}
+
+table#DGBrowser {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+table#DGBrowser td {
+    padding-left: 2px;
+    padding-right: 2px
+}
+
+td.inactiveHeader {
+    background: #fff url(/helpdesk/column_header_up.gif?v=12_5_2_84);
+    text-align: center;
+    white-space: nowrap;
+    height: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 11px;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-weight: 400
+}
+
+td.inactiveHeaderLeft {
+    background: #fff url(/helpdesk/column_header_up.gif?v=12_5_2_84);
+    text-align: left;
+    white-space: nowrap;
+    height: 15px;
+    padding-left: 10px;
+    font-size: 11px;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-weight: 400
+}
+
+td.outline {
+    background-color: #aaa;
+    padding: 0px 0px 0px 0px;
+    vertical-align: top
+}
+
+div.marginBottom {
+    vertical-align: top;
+    margin-bottom: 10px
+}
+
+td.leftAlignTop {
+    font-size: 11px;
+    text-align: left;
+    padding: 4px 5px;
+    height: 20px;
+    white-space: normal;
+    vertical-align: top;
+    background-color: white
+}
+
+td.centerAlignTop {
+    font-size: 11px;
+    text-align: center;
+    padding: 4px 5px;
+    height: 20px;
+    white-space: normal;
+    vertical-align: top;
+    background-color: white
+}
+
+td.saveOptionsMessage {
+    text-align: left;
+    padding: 10px 0 10px 2px;
+    background-color: white;
+    vertical-align: top
+}
+
+div.nestedAlignRight {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: right
+}
+
+div.nestedAlignRightNoWrap {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: right;
+    white-space: nowrap
+}
+
+div.dialogBoxTop {
+    width: 400px;
+    height: 5px;
+    font-size: 1px;
+    line-height: 1px;
+    background: none no-repeat
+}
+
+div.dialogBoxBottom {
+    width: 400px;
+    height: 8px;
+    background: none no-repeat
+}
+
+div#dialogContent {
+    height: auto;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-align: left;
+    padding: 3px 10px;
+    background-color: white;
+    voice-family: inherit;
+    width: 378px
+}
+
+.dialogMessage {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 900
+}
+
+div#dialog {
+    margin-bottom: 10px;
+    width: 100%
+}
+
+table.helpPopup {
+    width: 100%;
+    border: 0;
+    text-align: left
+}
+
+td.helpText {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px
+}
+
+td.changeMsg {
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 12px
+}
+
+td.tipRight {
+    text-align: right;
+    background-color: white;
+    vertical-align: middle;
+    padding-right: 8px
+}
+
+span.helpLink a {
+    color: black;
+    text-decoration: none
+}
+
+span.helpLinkMsgAttached a {
+    color: green;
+    text-decoration: none
+}
+
+span.helpLinkNoMsgAttached a {
+    color: red;
+    text-decoration: none
+}
+
+div.messageTitleBar {
+    height: 17px;
+    border-right: 1px solid #FFC700;
+    border-left: 1px solid #FFC700;
+    background: url(/helpdesk/message/title_bar.gif?v=12_5_2_84) repeat-x
+}
+
+div.messageTitleBarText {
+    padding-top: 2px;
+    font-size: 10px;
+    text-align: right;
+    padding-right: 5px
+}
+
+div.messageContent {
+    height: auto;
+    vertical-align: top;
+    border-color: #FFC700;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: #FFFFA1
+}
+
+div.messageCloseWidget {
+    width: 13px;
+    height: 17px;
+    float: left
+}
+
+div.clientMessageContainer {
+    padding-left: 50px;
+    padding-bottom: 30px
+}
+
+div.tabPanelTop {
+    width: 433px;
+    height: 19px;
+    text-align: center;
+    background: url(/helpdesk/message/tab_panel_top.gif?v=12_5_2_84) no-repeat
+}
+
+div.tabPanelBackground {
+    width: 433px;
+    height: auto;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    background: url(/helpdesk/message/tab_panel_background.gif?v=12_5_2_84) repeat-y
+}
+
+div.tabPanelBottom {
+    width: 433px;
+    height: 11px;
+    background: url(/helpdesk/message/tab_panel_bottom.gif?v=12_5_2_84) no-repeat
+}
+
+div.messageContainer {
+    width: 95%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    font-size: 11px
+}
+
+div.buttonContainer {
+    width: 220px;
+    margin: 0 auto
+}
+
+td.audienceLabel {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 11px;
+    padding: 1px 3px;
+    white-space: nowrap;
+    background-color: #fff
+}
+
+div.buttonDiv {
+    height: 30px
+}
+
+div.assetInfoRow {
+    width: auto;
+    display: block;
+    font-size: 10px;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+    padding: 0 0 4px 0
+}
+
+div.assetInfoLabel {
+    font-weight: bold;
+    display: inline;
+    width: 200px;
+    text-align: right;
+    padding: 0 2px 0 0;
+    color: #333;
+    height: 100%
+}
+
+div.assetInfoData {
+    display: inline
+}
+
+table#clientListSearch {
+    font-size: 10px
+}
+
+table#clientListSearch td {
+    background-color: #fff;
+    height: 15px
+}
+
+table#clientList {
+    font-size: 10px;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif
+}
+
+#clientList {
+    padding-top: 10px;
+    vertical-align: top
+}
+
+body.clientWhiteBackground {
+    background-image: none
+}
+
+.clientWhiteBackground .roundbox {
+    background: white;
+    color: black;
+    padding: 15px;
+    border: 1px solid #b0b0b0
+}
+
+.clientWhiteBackground .boxcontent {
+    color: black
+}
+
+.clientWhiteBackground .boxcontent .moduleLabel {
+    color: black
+}
+
+.clientWhiteBackground table.tabletext {
+    margin: auto !important
+}
+
+.clientWhiteBackground td.helpData {
+    font-size: 12px;
+    font-family: 'Open Sans', arial, Verdana, Helvetica, sans-serif
+}
+
+.clientWhiteBackground .ui-widget {
+    border: 1px grey solid
+}
+
+.clientWhiteBackground .colorLabel {
+    font-size: 12px;
+    font-family: 'Open Sans', arial, Verdana, Helvetica, sans-serif
+}
+
+.clientWhiteBackground td.inactiveHeaderLeft {
+    background: #fff;
+    font-weight: bold
+}
+
+.clientWhiteBackground .boxBottom {
+    display: none
+}
+
+.newAccountLoginScreen {
+    margin: 40px auto;
+    width: 450px
+}
+
+.newAccountTable {
+    width: 100%
+}
+
+.newAccountLoginScreen .boxcontent {
+    width: 100%;
+    overflow: initial
+}
+
+.newAccountLoginScreen input:not([type="radio"]) {
+    width: 100%
+}
+
+.newAccountLoginScreen select {
+    width: calc(100% + 4px) !important
+}
+
+.newAccountLoginScreen td.helpData {
+    min-width: 190px
+}
